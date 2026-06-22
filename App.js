@@ -287,7 +287,7 @@ export default function App() {
             {!isAdminLoggedIn ? (
               <View style={styles.loginCard}>
                 <Text style={styles.loginTitle}>🔒 Area Khusus Admin</Text>
-                <Text style={styles.loginSubtitle}>Masukkan password untuk masuk ke laman admin</Text>
+                <Text style={styles.loginSubtitle}>Masukkan password untuk mengelola pesanan cetak masuk</Text>
                 
                 <TextInput 
                   style={styles.input}
